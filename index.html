@@ -2,30 +2,39 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="css\style.css" type="text/css">
     <title>HTML Academy: Нёрдс</title>
   </head>
 
   <body>
   <header>
     <nav>
-      <a>
-        <img src="/img/nerds-logo.svg" alt="Nerds-Logo" height="65" width="160"></a>
-      <ul>
-      <li><a href="/studio.html">Студия</a></li>
-      <li><a href="/clients.html">Клиенты</a></li>
-      <li><a href="/shop.html">Магазин</a></li>
-      <li><a href="/contacts.html">Контакты</a></li>
-      <li><a href="/chip.html">Корзина</a></li>
-    </ul>
+     <div class="flex container">
+       <a>
+        <div class="nerds-logo"><img src="img/nerds-logo.svg" alt="Nerds-Logo">
+        </div>
+       </a>
+       <div class="navigation">
+         <ul>
+           <li><a href="/studio.html">Студия</a></li>
+           <li><a href="/clients.html">Клиенты</a></li>
+           <li><a href="/shop.html">Магазин</a></li>
+           <li><a href="/contacts.html">Контакты</a></li>
+         </ul>
+       </div>
+       <div class="chip1">
+          <a href="/chip.html">Корзина</a>
+       </div>
+     </div>
     </nav>
   </header>
   <main>
     <h1>Nerds Studio</h1>
     <section>
-      <h2>Информация</h2>
+      <!--<h2>Информация</h2>-->
       <ul>
         <li>
-          <h3>Долго, дорого,<br> скурпулезно</h3>
+          <h3 class="rich">Долго, дорого,<br> скурпулезно</h3>
           <p>Математически выведенный дизайн<br>
           для вашего сайта или мобильного приложения</p>
         <a href="info.html">Узнать больше</a>

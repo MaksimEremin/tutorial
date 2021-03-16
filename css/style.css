@@ -1,34 +1,32 @@
-*{padding: 0;
-margin: 0;]
+*{
+  padding: 0;
+  margin: 0;
 }
 header {
   padding: 50px 0px;
+  background-color: #eeeeee;
 }
-.flex{
+.header-container {
   display: -webkit-flex;
   display: flex;
   justify-content: space-around;
-
-}
-.container{
+  align-items: center;
   width: 100% ;
   max-width: 1200px;
   margin: 0 auto;
 }
 .navigation {
-
 }
-.chip1{
-  padding: 20px 0px;
+.chip1 {
+  display: inline-block;
+  margin-right: 10px;
 }
-
-ul{
+ul {
   list-style: none;
-display: flex;
+  display: flex;
   align-content: center ;
-  padding: 20px 0px;
 }
-li{
+li {
   margin: 0px 40px;
 }
 a {
@@ -36,5 +34,37 @@ a {
   color: black;
 }
 .rich {
-font-size: 40px;
+ font-size: 40px;
+}
+.introduction{
+  max-width: 1200px;
+  margin: 56px auto;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 0px;
+}
+.math {
+  margin: 50px auto;
+}
+.more{
+  font-size: 16px;
+  text-transform: uppercase;
+  background-color: #fb565a ;
+  text-align: center;
+  wight: 100%
+  max-width: 243px;
+  max-height:53px;
+  padding: 20px ;
+}
+.info{
+  color: #eeeeee;
+}
+main {
+  padding: 0px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.banner {
+  opacity: 0;
 }

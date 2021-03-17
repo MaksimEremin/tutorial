@@ -3,7 +3,7 @@
   margin: 0;
 }
 header {
-  padding: 50px 0px;
+  padding-top: 50px;
   background-color: #eeeeee;
 }
 .header-container {
@@ -34,7 +34,7 @@ a {
   color: black;
 }
 .rich {
- font-size: 40px;
+  font-size: 40px;
 }
 .introduction{
   max-width: 1200px;
@@ -43,6 +43,7 @@ a {
   display: flex;
   justify-content: space-around;
   margin-bottom: 0px;
+  height: 413px;
 }
 .math {
   margin: 50px auto;
@@ -52,19 +53,50 @@ a {
   text-transform: uppercase;
   background-color: #fb565a ;
   text-align: center;
-  wight: 100%
-  max-width: 243px;
+  max-width: 240px;
   max-height:53px;
   padding: 20px ;
+  width: 50%;
+}
+.phones{
+  height: 100%;
 }
 .info{
   color: #eeeeee;
 }
 main {
-  padding: 0px;
+  padding: 80px;
   max-width: 1200px;
   margin: 0 auto;
 }
 .banner {
   opacity: 0;
+}
+.order {
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+  max-width: 160px;
+  max-height:53px;
+  padding: 20px ;
+  margin-top: 41px;
+}
+.order-color1 {
+  background-color: #fb565a ;
+}
+.order-color2 {
+  background-color: #00ca74 ;
+}
+.order-color3 {
+  background-color: #efc84a ;
+}
+.text-link{
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.description {
+  margin: 31px auto;
+}
+.illustrations{
+  margin-bottom: 32px;
 }
